@@ -15,13 +15,13 @@ public class TestMail {
 	public static void main(String[] args) throws EmailException {
 		MailInfo mailInfo = new MailInfo();
 		List<String> toList = new ArrayList<String>();
-		toList.add("xxx@dhgate.com");
+		toList.add("xxx@yyy.com");
 
 		List<String> ccList = new ArrayList<String>();
-		ccList.add("xxx@dhgate.com");
+		ccList.add("xxx@yyyy.com");
 
 		List<String> bccList = new ArrayList<String>();
-		bccList.add("xxx@dhgate.com");
+		bccList.add("xxx@yyyy.com");
 
 		// 添加附件
 		EmailAttachment att = new EmailAttachment();
